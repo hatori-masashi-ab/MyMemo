@@ -1,0 +1,2 @@
+# MyMemo
+Console memo application
