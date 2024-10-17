@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "ConsoleAppFramework/5.2.4": {
+        "type": "package"
+      },
+      "ZString/2.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/ZString.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/ZString.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleAppFramework/5.2.4": {
+      "sha512": "p48u97bjSgRuyTDovmTZydfclHxjg5nbqhlsW53a2ttPK+W+VS8OXsjMsRPbYLeakJB5+Ik7Z5flUEKU1LvZuA==",
+      "type": "package",
+      "path": "consoleappframework/5.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "analyzers/dotnet/cs/ConsoleAppFramework.dll",
+        "consoleappframework.5.2.4.nupkg.sha512",
+        "consoleappframework.nuspec"
+      ]
+    },
+    "ZString/2.6.0": {
+      "sha512": "XE8a+11nZg0LRaf+RGABEWaHIf8yGd5w8v/Ra1iWxMBmAVzwuKbW7G21mS0U7w7sh1lYcgckInWGgnz4qyET8A==",
+      "type": "package",
+      "path": "zstring/2.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/ZString.dll",
+        "lib/net6.0/ZString.xml",
+        "lib/net7.0/ZString.dll",
+        "lib/net7.0/ZString.xml",
+        "lib/netstandard2.0/ZString.dll",
+        "lib/netstandard2.0/ZString.xml",
+        "lib/netstandard2.1/ZString.dll",
+        "lib/netstandard2.1/ZString.xml",
+        "zstring.2.6.0.nupkg.sha512",
+        "zstring.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "ConsoleAppFramework >= 5.2.4",
+      "ZString >= 2.6.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/s17843/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/s17843/Desktop/myProject/MyMemo/MyMemo/MyMemo/MyMemo.csproj",
+      "projectName": "MyMemo",
+      "projectPath": "/Users/s17843/Desktop/myProject/MyMemo/MyMemo/MyMemo/MyMemo.csproj",
+      "packagesPath": "/Users/s17843/.nuget/packages/",
+      "outputPath": "/Users/s17843/Desktop/myProject/MyMemo/MyMemo/MyMemo/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/s17843/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "ConsoleAppFramework": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.2.4, )"
+          },
+          "ZString": {
+            "target": "Package",
+            "version": "[2.6.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

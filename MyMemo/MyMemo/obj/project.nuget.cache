@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WlToFoB6jR4IZIL6eIhDH5Eir1NFMvBHduZI80uW2L1MBfwSQNUR76khrMntnmpT/q9xByTLZEYR+AmYtbtGJQ==",
+  "success": true,
+  "projectFilePath": "/Users/s17843/Desktop/myProject/MyMemo/MyMemo/MyMemo/MyMemo.csproj",
+  "expectedPackageFiles": [
+    "/Users/s17843/.nuget/packages/consoleappframework/5.2.4/consoleappframework.5.2.4.nupkg.sha512",
+    "/Users/s17843/.nuget/packages/zstring/2.6.0/zstring.2.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
