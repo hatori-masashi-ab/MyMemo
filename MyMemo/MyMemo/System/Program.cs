@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using MyMemo;
+﻿using MyMemo;
 
 Console.WriteLine("===== Welcome to MyMemo! =====");
 

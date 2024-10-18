@@ -1,5 +1,3 @@
-using MyMemo.Command;
-
 namespace MyMemo;
 
 public partial class Application
@@ -18,6 +16,7 @@ public partial class Application
             // input
             string? input = Console.ReadLine();
             if (input == null) continue;
+            MyMemoLogger.DebugLog($"input : {input}");
 
             // Parse input
             var inputParam = new Input(input);
@@ -67,7 +66,7 @@ public partial class Application
     {
         public string Command { get; }
 
-        public readonly List<string> Args = new();
+        public readonly List<string> Args = [];
 
         public Input(string? inputStr)
         {

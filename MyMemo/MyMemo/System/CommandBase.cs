@@ -1,4 +1,4 @@
-namespace MyMemo.Command;
+namespace MyMemo;
 
 public abstract class CommandBase : ICommand
 {
